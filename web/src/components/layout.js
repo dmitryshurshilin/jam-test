@@ -23,7 +23,7 @@ const Layout = ({ children, companyInfo, onHideNav, onShowNav, showNav, siteTitl
                   <br />
                 </span>
               )}
-              {companyInfo.zipCode} {companyInfo.city}
+              🐶 {companyInfo.zipCode} {companyInfo.city}
               {companyInfo.country && <span>, {companyInfo.country}</span>}
             </div>
           )}
